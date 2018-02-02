@@ -11,6 +11,7 @@ buildscript {
         }
     }
     configurations.all {
+        //项目缓存0秒
         resolutionStrategy.cacheDynamicVersionsFor 0, 'seconds'
         resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
     }
@@ -23,8 +24,9 @@ buildscript {
     }
 }
 
-//全局变量 rootProject.ext.变量名 获取
+//Gradle全局变量 通过rootProject.ext.变量名 来获取，可以统一管理依赖包版本，子模块版本等
 ext {
+    //atlas核心包及版本
     lib_atlas_core = "com.taobao.android:atlas_core:5.0.7.55@aar"
     lib_atlas_update = "com.taobao.android:atlasupdate:1.1.4.14@aar"
 }
