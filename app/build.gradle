@@ -21,6 +21,7 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName version
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         vectorDrawables.useSupportLibrary = true
         //通过增加判断逻辑，打出不同类型的定制包
