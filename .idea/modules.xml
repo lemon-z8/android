@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Z8.iml" filepath="$PROJECT_DIR$/Z8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/analysis/analysis.iml" filepath="$PROJECT_DIR$/analysis/analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/modulea/modulea.iml" filepath="$PROJECT_DIR$/modulea/modulea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/business.iml" filepath="$PROJECT_DIR$/business/business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middlelibrary/middlelibrary.iml" filepath="$PROJECT_DIR$/middlelibrary/middlelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system/system.iml" filepath="$PROJECT_DIR$/system/system.iml" />
     </modules>
   </component>
 </project>

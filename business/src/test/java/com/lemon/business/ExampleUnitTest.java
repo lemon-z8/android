@@ -1,4 +1,4 @@
-package com.lemon.modulea;
+package com.lemon.business;
 
 import org.junit.Test;
 

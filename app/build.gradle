@@ -54,7 +54,7 @@ atlas {
 
     atlasEnabled true
     tBuildConfig {
-//        autoStartBundles = ['com.taobao.firstbundle'] //自启动bundle配置
+//        autoStartBundles = ['com.lemon.system'] //自启动bundle配置
         //远程调用
 //        outOfApkBundles = ['remotebundle']
         //启动前调用
@@ -96,9 +96,11 @@ dependencies {
     }
 
     //启动加载
-//    compile project(':activitygroupcompat')
+    compile project(':middlelibrary')
     //调用加载
-    bundleCompile project(':modulea')
+    bundleCompile project(':business')
+    bundleCompile project(':analysis')
+    bundleCompile project(':system')
 
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile rootProject.ext.lib_atlas_update

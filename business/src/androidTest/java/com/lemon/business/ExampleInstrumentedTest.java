@@ -1,4 +1,4 @@
-package com.lemon.modulea;
+package com.lemon.business;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,2 +1,2 @@
-include ':app'
-include ':modulea'
+include ':app', ':middlelibrary', ':analysis', ':system'
+include ':business'

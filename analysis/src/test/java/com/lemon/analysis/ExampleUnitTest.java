@@ -1,4 +1,4 @@
-package com.lemon.logistics;
+package com.lemon.analysis;
 
 import org.junit.Test;
 

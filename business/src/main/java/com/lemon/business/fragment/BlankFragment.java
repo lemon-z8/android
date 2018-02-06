@@ -1,14 +1,7 @@
-package com.lemon.modulea.fragment;
+package com.lemon.business.fragment;
 
-import android.content.Context;
 import android.net.Uri;
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import com.lemon.modulea.R;
 
 
 public class BlankFragment extends Fragment {

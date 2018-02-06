@@ -1,4 +1,4 @@
-package com.lemon.logistics;
+package com.lemon.analysis;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
