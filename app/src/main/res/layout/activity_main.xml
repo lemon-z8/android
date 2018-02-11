@@ -4,15 +4,47 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <EditText
+    <RadioGroup
+            android:id="@+id/rg_tab_bar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="test001"
-            android:ems="10"
-            android:id="@+id/editText"/>
-    <Button
-            android:text="Button"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_white"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/home"
+                style="@style/tab_menu_item"
+                android:drawableTop="@drawable/home_icon"
+                android:text="@string/home_text" />
+
+        <RadioButton
+                android:id="@+id/business"
+                style="@style/tab_menu_item"
+                android:drawableTop="@drawable/business_icon"
+                android:text="@string/business_text" />
+
+        <RadioButton
+                android:id="@+id/analysis"
+                style="@style/tab_menu_item"
+                android:drawableTop="@drawable/analysis_icon"
+                android:text="@string/analysis_text" />
+
+        <RadioButton
+                android:id="@+id/system"
+                style="@style/tab_menu_item"
+                android:drawableTop="@drawable/system_icon"
+                android:text="@string/system_text" />
+
+
+    </RadioGroup>
+
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/vpager"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button"/>
+            android:layout_height="match_parent"
+            android:layout_above="@id/rg_tab_bar"
+    />
+
 </LinearLayout>
